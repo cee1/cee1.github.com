@@ -14,11 +14,12 @@ description: "huhb's Blog"
 			<div class="post-header">
 				<div class="date">{{ post.date | date_to_string }}</div>
 				<div class="tags"> 
-					<label>Tags: </label>{{ post.tags | array_to_sentence_string }}
+					<label>标签: </label>
+						<a href = "{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ post.tags }}-ref">{{ post.tags | array_to_sentence_string }} </a>
 				</div>
 				<div class="category"> 
-					<label>Category: </label>
-					<span>{{ post.category }}</span>
+					<label>分类: </label>
+						<a href = "{{ BASE_PATH }}{{ site.JB.categories_path }}#{{ post.category }}-ref"> <span>{{ post.category }}</span> </a>
 				</div>
 			</div>
 			<div class="post-content">
