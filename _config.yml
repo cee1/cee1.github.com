@@ -3,18 +3,17 @@
 permalink: /blog/:year/:month/:day/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-auto: true
 pygments: true
 markdown: rdiscount
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : 梦回蜀川
+title : "cee1's Archive"
 tagline: Site Tagline
 author :
-  name : 胡洪兵
-  email : huhb04@gmail.com
-  github : huhb
+  name : cee1
+  email : fykcee1@gmail.com
+  github : cee1
   twitter : 
   feedburner : feedname
 
@@ -26,7 +25,7 @@ author :
 # Else if you are pushing to username.github.com, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://huhb.github.com
+production_url : http://cee1.github.com
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -81,7 +80,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : huhbblog
+      short_name : cee1blog
   #  livefyre :
   #    site_id : 123
   #  intensedebate :
@@ -125,4 +124,4 @@ JB :
   # where [HELPER] is the name of the helper you are overriding.
 
 #config navigation menu order, ugly
-navigation_order : ["/categories.html", "/tags.html", "/archive.html", "/aboutme.html", "/announce.html"]
+navigation_order : ["/aboutme.html", "/categories.html", "/tags.html", "/archive.html"]
