@@ -115,8 +115,8 @@ JB :
   # Settings for all other include helpers can be defined by creating 
   # a hash with key named for the given helper. ex:
   #
-  #   pages_list :
-  #     provider : "custom"   
+  pages_list :
+    provider : "custom"   
   #
   # Setting any helper's provider to 'custom' will bypass the helper code
   # and include your custom code. Your custom file must be defined at:
@@ -124,4 +124,4 @@ JB :
   # where [HELPER] is the name of the helper you are overriding.
 
 #config navigation menu order, ugly
-navigation_order : ["/aboutme.html", "/categories.html", "/tags.html", "/archive.html"]
+navigation_order : [ "/categories.html", "/tags.html", "/archive.html", "/aboutme.html" ]
