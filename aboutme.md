@@ -11,6 +11,7 @@ group: navigation
 <div style="line-height:30px;">
 <span style="font:18px bold Liberation Sans, sans;">Linux programmer, linux, freedesktop, gnome ...</span>
 <br/><a href="https://github.com/cee1/cee1.archive">My Code&#39;s Archive</a>
+<br/><a href="/assets/image/profile/cee1-resume.pdf">My Resume</a>&nbsp;&nbsp;&nbsp;[<a href="/assets/image/profile/cee1-resume-cn.pdf">中文版</a>]
 <br/><a href="http://blog.csdn.net/cee1i">My prev blog</a>
 <br/><a href="http://3gai.blogspot.com">My prev prev co-blog</a> with it&#39;
 <a href="https://groups.google.com/forum/#!forum/moyugui">backing</a>
